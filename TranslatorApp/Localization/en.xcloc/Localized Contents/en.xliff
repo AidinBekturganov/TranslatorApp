@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="TranslatorApp/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.6" build-num="11E708"/>
+    </header>
+    <body>
+      <trans-unit id="6Eo-ED-TaW.title" xml:space="preserve">
+        <source>ITranslator</source>
+        <target>ITranslator</target>
+        <note>Class = "UINavigationItem"; title = "ITranslator"; ObjectID = "6Eo-ED-TaW";</note>
+      </trans-unit>
+      <trans-unit id="7ip-5o-a3q.title" xml:space="preserve">
+        <source>History</source>
+        <target>History</target>
+        <note>Class = "UIBarButtonItem"; title = "History"; ObjectID = "7ip-5o-a3q";</note>
+      </trans-unit>
+      <trans-unit id="OeO-FL-KqS.title" xml:space="preserve">
+        <source>ITranslator</source>
+        <target>ITranslator</target>
+        <note>Class = "UINavigationItem"; title = "ITranslator"; ObjectID = "OeO-FL-KqS";</note>
+      </trans-unit>
+      <trans-unit id="PVb-uw-UqT.headerTitle" xml:space="preserve">
+        <source>Choose a language</source>
+        <target>Choose a language</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Choose a language"; ObjectID = "PVb-uw-UqT";</note>
+      </trans-unit>
+      <trans-unit id="dCE-XP-cVE.title" xml:space="preserve">
+        <source>Item</source>
+        <target>Item</target>
+        <note>Class = "UIBarButtonItem"; title = "Item"; ObjectID = "dCE-XP-cVE";</note>
+      </trans-unit>
+      <trans-unit id="vYy-aH-Vl8.placeholder" xml:space="preserve">
+        <source>Enter a text</source>
+        <target>Enter a text</target>
+        <note>Class = "UITextField"; placeholder = "Enter a text"; ObjectID = "vYy-aH-Vl8";</note>
+      </trans-unit>
+      <trans-unit id="ySk-eZ-yK1.headerTitle" xml:space="preserve">
+        <source>Translate</source>
+        <target>Translate</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Translate"; ObjectID = "ySk-eZ-yK1";</note>
+      </trans-unit>
+      <trans-unit id="z5a-Xt-Ri8.text" xml:space="preserve">
+        <source>TO</source>
+        <target>TO</target>
+        <note>Class = "UILabel"; text = "TO"; ObjectID = "z5a-Xt-Ri8";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="TranslatorApp/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.6" build-num="11E708"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>TranslatorApp</source>
+        <target>TranslatorApp</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

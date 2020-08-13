@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802E1CC7BBD2A8A40BC2E92A /* Pods_TranslatorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F98C4A0E22DF3EF593F5323 /* Pods_TranslatorApp.framework */; };
+		CE75E15C24E1088A009F1918 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75E15B24E1088A009F1918 /* APIKeys.swift */; };
+		CE75E15E24E111DB009F1918 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75E15D24E111DB009F1918 /* Languages.swift */; };
+		CE75E16024E1127B009F1918 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75E15F24E1127B009F1918 /* Model.swift */; };
+		CE75E16224E12EB0009F1918 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75E16124E12EB0009F1918 /* MainTableViewController.swift */; };
+		CE75E16624E15EE5009F1918 /* RecentlyTranslationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75E16524E15EE5009F1918 /* RecentlyTranslationTableViewController.swift */; };
+		CE75E16824E16148009F1918 /* TranslatedWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75E16724E16148009F1918 /* TranslatedWords.swift */; };
+		CE75E16A24E164B8009F1918 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75E16924E164B8009F1918 /* RealmService.swift */; };
+		CE75E16C24E16719009F1918 /* TranslatedWordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75E16B24E16719009F1918 /* TranslatedWordsTableViewCell.swift */; };
 		CE77CCFE24E04B7000E1C6CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77CCFD24E04B7000E1C6CB /* AppDelegate.swift */; };
 		CE77CD0024E04B7000E1C6CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77CCFF24E04B7000E1C6CB /* SceneDelegate.swift */; };
-		CE77CD0224E04B7000E1C6CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77CD0124E04B7000E1C6CB /* ViewController.swift */; };
 		CE77CD0524E04B7000E1C6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE77CD0324E04B7000E1C6CB /* Main.storyboard */; };
 		CE77CD0724E04B7200E1C6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE77CD0624E04B7200E1C6CB /* Assets.xcassets */; };
 		CE77CD0A24E04B7200E1C6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE77CD0824E04B7200E1C6CB /* LaunchScreen.storyboard */; };
+		CE860F1D24E3BE7700312642 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE860F1F24E3BE7700312642 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F98C4A0E22DF3EF593F5323 /* Pods_TranslatorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TranslatorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74EE0BD191436DFD29CF60F /* Pods-TranslatorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslatorApp.debug.xcconfig"; path = "Target Support Files/Pods-TranslatorApp/Pods-TranslatorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CE75E15B24E1088A009F1918 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		CE75E15D24E111DB009F1918 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		CE75E15F24E1127B009F1918 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE75E16124E12EB0009F1918 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		CE75E16524E15EE5009F1918 /* RecentlyTranslationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyTranslationTableViewController.swift; sourceTree = "<group>"; };
+		CE75E16724E16148009F1918 /* TranslatedWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatedWords.swift; sourceTree = "<group>"; };
+		CE75E16924E164B8009F1918 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		CE75E16B24E16719009F1918 /* TranslatedWordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatedWordsTableViewCell.swift; sourceTree = "<group>"; };
 		CE77CCFA24E04B7000E1C6CB /* TranslatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranslatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE77CCFD24E04B7000E1C6CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE77CCFF24E04B7000E1C6CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE77CD0124E04B7000E1C6CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE77CD0424E04B7000E1C6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE77CD0624E04B7200E1C6CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE77CD0924E04B7200E1C6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE77CD0B24E04B7200E1C6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE860F1924E3BDF600312642 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		CE860F1A24E3BDF700312642 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CE860F1E24E3BE7700312642 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF7AA4E54D794FB13B9A0ED6 /* Pods-TranslatorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslatorApp.release.xcconfig"; path = "Target Support Files/Pods-TranslatorApp/Pods-TranslatorApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802E1CC7BBD2A8A40BC2E92A /* Pods_TranslatorApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82BCA24B595ECCB6D95DDFF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F98C4A0E22DF3EF593F5323 /* Pods_TranslatorApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC2785372C32FBFF9190AE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B74EE0BD191436DFD29CF60F /* Pods-TranslatorApp.debug.xcconfig */,
+				EF7AA4E54D794FB13B9A0ED6 /* Pods-TranslatorApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE77CCF124E04B7000E1C6CB = {
 			isa = PBXGroup;
 			children = (
 				CE77CCFC24E04B7000E1C6CB /* TranslatorApp */,
 				CE77CCFB24E04B7000E1C6CB /* Products */,
+				8AC2785372C32FBFF9190AE8 /* Pods */,
+				82BCA24B595ECCB6D95DDFF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,31 @@
 		CE77CCFC24E04B7000E1C6CB /* TranslatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEC26B2324E521F1006604BC /* Models */,
 				CE77CCFD24E04B7000E1C6CB /* AppDelegate.swift */,
 				CE77CCFF24E04B7000E1C6CB /* SceneDelegate.swift */,
-				CE77CD0124E04B7000E1C6CB /* ViewController.swift */,
+				CE75E16124E12EB0009F1918 /* MainTableViewController.swift */,
+				CE75E16524E15EE5009F1918 /* RecentlyTranslationTableViewController.swift */,
+				CE75E16B24E16719009F1918 /* TranslatedWordsTableViewCell.swift */,
 				CE77CD0324E04B7000E1C6CB /* Main.storyboard */,
 				CE77CD0624E04B7200E1C6CB /* Assets.xcassets */,
 				CE77CD0824E04B7200E1C6CB /* LaunchScreen.storyboard */,
 				CE77CD0B24E04B7200E1C6CB /* Info.plist */,
+				CE75E15B24E1088A009F1918 /* APIKeys.swift */,
+				CE75E16924E164B8009F1918 /* RealmService.swift */,
+				CE860F1F24E3BE7700312642 /* Localizable.strings */,
 			);
 			path = TranslatorApp;
+			sourceTree = "<group>";
+		};
+		CEC26B2324E521F1006604BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE75E15F24E1127B009F1918 /* Model.swift */,
+				CE75E15D24E111DB009F1918 /* Languages.swift */,
+				CE75E16724E16148009F1918 /* TranslatedWords.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE77CD0E24E04B7200E1C6CB /* Build configuration list for PBXNativeTarget "TranslatorApp" */;
 			buildPhases = (
+				82DAE93F7590FCFD69D02980 /* [CP] Check Pods Manifest.lock */,
 				CE77CCF624E04B7000E1C6CB /* Sources */,
 				CE77CCF724E04B7000E1C6CB /* Frameworks */,
 				CE77CCF824E04B7000E1C6CB /* Resources */,
+				48E60E7F5AB990A9760B04C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +169,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = CE77CCF124E04B7000E1C6CB;
 			productRefGroup = CE77CCFB24E04B7000E1C6CB /* Products */;
@@ -126,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE77CD0A24E04B7200E1C6CB /* LaunchScreen.storyboard in Resources */,
+				CE860F1D24E3BE7700312642 /* Localizable.strings in Resources */,
 				CE77CD0724E04B7200E1C6CB /* Assets.xcassets in Resources */,
 				CE77CD0524E04B7000E1C6CB /* Main.storyboard in Resources */,
 			);
@@ -133,14 +195,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48E60E7F5AB990A9760B04C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TranslatorApp/Pods-TranslatorApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TranslatorApp/Pods-TranslatorApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TranslatorApp/Pods-TranslatorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82DAE93F7590FCFD69D02980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TranslatorApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE77CCF624E04B7000E1C6CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE77CD0224E04B7000E1C6CB /* ViewController.swift in Sources */,
+				CE75E16A24E164B8009F1918 /* RealmService.swift in Sources */,
 				CE77CCFE24E04B7000E1C6CB /* AppDelegate.swift in Sources */,
+				CE75E15C24E1088A009F1918 /* APIKeys.swift in Sources */,
+				CE75E16024E1127B009F1918 /* Model.swift in Sources */,
+				CE75E16C24E16719009F1918 /* TranslatedWordsTableViewCell.swift in Sources */,
 				CE77CD0024E04B7000E1C6CB /* SceneDelegate.swift in Sources */,
+				CE75E15E24E111DB009F1918 /* Languages.swift in Sources */,
+				CE75E16824E16148009F1918 /* TranslatedWords.swift in Sources */,
+				CE75E16624E15EE5009F1918 /* RecentlyTranslationTableViewController.swift in Sources */,
+				CE75E16224E12EB0009F1918 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +262,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CE77CD0424E04B7000E1C6CB /* Base */,
+				CE860F1924E3BDF600312642 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +271,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				CE77CD0924E04B7200E1C6CB /* Base */,
+				CE860F1A24E3BDF700312642 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE860F1F24E3BE7700312642 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE860F1E24E3BE7700312642 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,6 +405,7 @@
 		};
 		CE77CD0F24E04B7200E1C6CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74EE0BD191436DFD29CF60F /* Pods-TranslatorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +424,7 @@
 		};
 		CE77CD1024E04B7200E1C6CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7AA4E54D794FB13B9A0ED6 /* Pods-TranslatorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

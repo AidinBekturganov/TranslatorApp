@@ -1,0 +1,26 @@
+PODS:
+  - Realm (5.3.3):
+    - Realm/Headers (= 5.3.3)
+  - Realm/Headers (5.3.3)
+  - RealmSwift (5.3.3):
+    - Realm (= 5.3.3)
+  - SwiftGoogleTranslate (0.2.1)
+
+DEPENDENCIES:
+  - RealmSwift
+  - SwiftGoogleTranslate
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - SwiftGoogleTranslate
+
+SPEC CHECKSUMS:
+  Realm: 2d57ea355bf8ca2a0964d6bfb38d28d7ff2addf6
+  RealmSwift: 0a709536ecea30eea1d3c514f6ade2ed078dee3c
+  SwiftGoogleTranslate: 96960d3548e800e15b347518afca546d2edc8519
+
+PODFILE CHECKSUM: 76d7426964932d044fb267a3727e6113d3700e7b
+
+COCOAPODS: 1.9.3

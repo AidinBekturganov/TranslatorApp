@@ -1,0 +1,24 @@
+/* Class = "UINavigationItem"; title = "ITranslator"; ObjectID = "6Eo-ED-TaW"; */
+"6Eo-ED-TaW.title" = "ITranslator";
+
+/* Class = "UIBarButtonItem"; title = "History"; ObjectID = "7ip-5o-a3q"; */
+"7ip-5o-a3q.title" = "История";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "dCE-XP-cVE"; */
+"dCE-XP-cVE.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "ITranslator"; ObjectID = "OeO-FL-KqS"; */
+"OeO-FL-KqS.title" = "ITranslator";
+
+/* Class = "UITableViewSection"; headerTitle = "Choose a language"; ObjectID = "PVb-uw-UqT"; */
+"PVb-uw-UqT.headerTitle" = "Выберите язык";
+
+/* Class = "UITextField"; placeholder = "Enter a text"; ObjectID = "vYy-aH-Vl8"; */
+"vYy-aH-Vl8.placeholder" = "Введите текст";
+
+/* Class = "UITableViewSection"; headerTitle = "Translate"; ObjectID = "ySk-eZ-yK1"; */
+"ySk-eZ-yK1.headerTitle" = "Перевести";
+
+/* Class = "UILabel"; text = "TO"; ObjectID = "z5a-Xt-Ri8"; */
+"z5a-Xt-Ri8.text" = "НА";
+
